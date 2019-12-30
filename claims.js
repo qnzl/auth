@@ -3,7 +3,11 @@ module.exports = {
     dump: `todoist:get:all`
   },
   existio: {
-    dump: `existio:get:all`
+    dump: `existio:get:all`,
+    get: {
+      multiple: `existio:get:multiple`,
+      single: `existio:get:single`
+    }
   },
   plaid: {
     dump: `plaid:get:all`
@@ -12,6 +16,7 @@ module.exports = {
     dump: `trello:get:all`
   },
   activityWatch: {
-    dump: `aw:get:all`
+    dump: `aw:get:all`,
+    get: `aw:get:bucket`
   }
 }
