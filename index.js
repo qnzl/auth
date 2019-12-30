@@ -1,3 +1,4 @@
 module.exports = {
-  checkJWT: require(`./checkJWT`)
+  checkJWT: require(`./checkJWT`),
+  CLAIMS: require(`./claims`)
 }
