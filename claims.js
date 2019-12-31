@@ -1,6 +1,7 @@
 module.exports = {
   todoist: {
-    dump: `todoist:get:all`
+    dump: `todoist:get:all`,
+    tasks: `todoist:get:tasks`
   },
   existio: {
     dump: `existio:get:all`,
