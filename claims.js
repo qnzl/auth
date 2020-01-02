@@ -3,7 +3,7 @@ module.exports = {
     dump: `todoist:get:all`,
     get: {
       tasks: `todoist:get:tasks`,
-      comments: `todoist:get:comments`
+      comments: `todoist:get:comments`,
     }
   },
   existio: {
