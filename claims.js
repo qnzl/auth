@@ -1,4 +1,11 @@
 module.exports = {
+  email: {
+    auth: `email:auth`,
+    get: {
+      mailboxes: `email:get:mailboxes`,
+      mail: `email:get:mail`
+    }
+  },
   todoist: {
     dump: `todoist:get:all`,
     get: {
@@ -8,6 +15,7 @@ module.exports = {
   },
   existio: {
     dump: `existio:get:all`,
+    update: `existio:update`,
     get: {
       multiple: `existio:get:multiple`,
       single: `existio:get:single`
