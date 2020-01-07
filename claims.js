@@ -1,4 +1,7 @@
 module.exports = {
+  weather: {
+    dump: `weather:get:all`
+  },
   email: {
     auth: `email:auth`,
     get: {
