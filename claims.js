@@ -24,6 +24,9 @@ module.exports = {
       single: `existio:get:single`
     }
   },
+  easypost: {
+    add: `easypost:add`
+  },
   plaid: {
     dump: `plaid:get:all`
   },
