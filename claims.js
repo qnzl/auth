@@ -33,6 +33,9 @@ module.exports = {
   trello: {
     dump: `trello:get:all`
   },
+  typeform: {
+    dump: `typeform:get:all`
+  },
   activityWatch: {
     dump: `aw:get:all`,
     get: `aw:get:bucket`
