@@ -1,4 +1,7 @@
 module.exports = {
+  withings: {
+    dump: `withings:get:all`
+  },
   weather: {
     dump: `weather:get:all`
   },
