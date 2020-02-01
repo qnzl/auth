@@ -1,6 +1,6 @@
 {
   "name": "@qnzl/auth",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "description": "JWT authentication wrapper for level-based auth",
   "main": "index.js",
   "scripts": {

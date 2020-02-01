@@ -1,4 +1,8 @@
 module.exports = {
+  geolocation: {
+    dump: `geolocation:get:all`,
+    add: `geolocation:add`
+  },
   withings: {
     dump: `withings:get:all`
   },
