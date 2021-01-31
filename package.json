@@ -1,14 +1,18 @@
 {
   "name": "@qnzl/auth",
-  "version": "1.0.13",
-  "description": "JWT authentication wrapper for level-based auth",
+  "version": "2.0.0",
+  "description": "Authenticate JWT claims with dot-seperated claims, scoping to subject and issuer",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test/class.test.js"
   },
-  "author": "Madeline Cameron <maddie@qnzl.co>",
+  "author": "Madeline <maddie@qnzl.co>",
   "license": "MIT",
   "dependencies": {
     "jose": "^1.17.2"
+  },
+  "devDependencies": {
+    "sinon": "^9.2.4",
+    "tape": "^5.1.1"
   }
 }
