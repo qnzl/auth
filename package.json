@@ -8,6 +8,11 @@
   },
   "author": "Madeline <maddie@qnzl.co>",
   "license": "MIT",
+  "homepage": "https://github.com/qnzl/auth/README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/qnzl/auth.git"
+  },
   "dependencies": {
     "jose": "^1.17.2"
   },
