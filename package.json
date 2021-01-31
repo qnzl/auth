@@ -1,6 +1,6 @@
 {
   "name": "@qnzl/auth",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Authenticate JWT claims with dot-seperated claims, scoping to subject and issuer",
   "main": "src/index.js",
   "scripts": {
